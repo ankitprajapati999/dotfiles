@@ -70,9 +70,9 @@ window_effects:
     # Change the corner style of the window's frame.
     # ** Exclusive to Windows 11 due to API limitations.
     corner_style:
-      enabled: false
+      enabled: true
       # Allowed values: 'square', 'rounded', 'small_rounded'.
-      style: 'square'
+      style: 'small_rounded'
 
     # Change the transparency of the window.
     transparency:
@@ -89,13 +89,17 @@ window_effects:
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: false
-      style: 'square'
+      enabled: true
+      style: 'small_rounded'
     transparency:
-      enabled: false
-      opacity: '0%'
+      enabled: true
+      opacity: '95%'
 
 window_behavior:
+
+  default_size:
+    width: '70%'
+    height: '70%'
   # New windows are created in this state whenever possible.
   # Allowed values: 'tiling', 'floating'.
   initial_state: 'tiling'
@@ -131,6 +135,7 @@ workspaces:
   - name: '9'
 
 window_rules:
+
   - commands: ['ignore']
     match:
       # Ignores any Zebar windows.
@@ -169,6 +174,13 @@ binding_modes:
       # Press enter/escape to return to default keybindings.
       - commands: ['wm-disable-binding-mode --name resize']
         bindings: ['escape', 'enter']
+
+layout:
+  default_layout: "master"
+  master_area_ratio: 0.65    # main window takes 65% of screen
+  stack_count: 1             # number of windows in the master area
+  auto_resize: true          # Glaze will try to resize windows intelligently
+
 
 keybindings:
   # Shift focus in a given direction.
@@ -232,7 +244,7 @@ keybindings:
   # Launch CMD terminal. Alternatively, use `shell-exec wt` or
   # `shell-exec %ProgramFiles%/Git/git-bash.exe` to start Windows
   # Terminal and Git Bash respectively.
-  - commands: ['shell-exec cmd']
+  - commands: ['shell-exec wt']
     bindings: ['alt+enter']
 
   # Focus the next/previous active workspace defined in `workspaces` config.

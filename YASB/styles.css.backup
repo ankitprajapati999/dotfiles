@@ -1000,16 +1000,3 @@ font-size: var(--text-normal);
   align-items: center;
 }
 
-.glazewm-tiling-direction {
-  background-color: transparent;
-  padding: 3px;
-  margin: 0;
-}
-
-.glazewm-tiling-direction .btn {
-  font-size: 19px;
-  width: 16px;
-  padding: 0 1px 0 6px;
-  color: #CDD6F4;
-  border: none;
-}

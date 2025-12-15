@@ -22,7 +22,7 @@ bars:
       width: "84%"
       height: 38
     widgets:
-      left: [ "home", "glazewm_tiling_direction", "taskbar",]
+      left: ["home", "taskbar"]
       center: ["launchpad", "clock", "weather", "media"]
       right:
         [
@@ -445,13 +445,4 @@ widgets:
         color: "black"
         radius: 3
         offset: [1, 1]
-  glazewm_tiling_direction:
-    type: "glazewm.tiling_direction.GlazewmTilingDirectionWidget"
-    options:
-      horizontal_label: "\udb81\udce1"
-      vertical_label: "\udb81\udce2"
-      btn_shadow:
-        enabled: false
-        color: "black"
-        radius: 3
-        offset: [ 1, 1 ]
+
