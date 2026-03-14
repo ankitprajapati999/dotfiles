@@ -1,0 +1,26 @@
+{
+  "version": "1.1.0",
+  "exportDate": "2026-03-14T09:41:27.719Z",
+  "settings": {
+    "userName": null,
+    "colorScheme": "ayu",
+    "theme": "dark",
+    "colorMode": "single",
+    "timeFormat": "24",
+    "showSeconds": "true",
+    "tempUnit": "C",
+    "showQuotes": null,
+    "enabledEngines": "[\"google\",\"duckduckgo\"]",
+    "preferredEngine": "google",
+    "weatherLocation": "bhavnagar, gujarat, india",
+    "openWeatherApiKey": "3bf4cf9a7c3f40d6b31174128242807",
+    "linkBehavior": null,
+    "showKeyboardHints": "false",
+    "footerLeft": null,
+    "footerCenter": null,
+    "footerRight": "blank",
+    "socialLinks": "[{\"name\":\"Facebook\",\"icon\":\"fa-brands fa-facebook\",\"visible\":false,\"url\":\"\"},{\"name\":\"Instagram\",\"icon\":\"fa-brands fa-instagram\",\"visible\":false,\"url\":\"https://www.instagram.com/lightning_ankit/\"},{\"name\":\"Twitter/X\",\"icon\":\"fa-brands fa-x-twitter\",\"visible\":false,\"url\":\"\"},{\"name\":\"LinkedIn\",\"icon\":\"fa-brands fa-linkedin\",\"visible\":false,\"url\":\"\"},{\"name\":\"GitHub\",\"icon\":\"fa-brands fa-github\",\"visible\":false,\"url\":\"https://github.com/ankitprajapati999\"},{\"name\":\"YouTube\",\"icon\":\"fa-brands fa-youtube\",\"visible\":false,\"url\":\"\"},{\"name\":\"TikTok\",\"icon\":\"fa-brands fa-tiktok\",\"visible\":false,\"url\":\"\"},{\"name\":\"Discord\",\"icon\":\"fa-brands fa-discord\",\"visible\":false,\"url\":\"\"},{\"name\":\"Reddit\",\"icon\":\"fa-brands fa-reddit-alien\",\"visible\":false,\"url\":\"\"},{\"name\":\"Mastodon\",\"icon\":\"fa-brands fa-mastodon\",\"visible\":false,\"url\":\"\"}]"
+  },
+  "categories": null,
+  "links": "{\"dev\":[{\"name\":\"GitHub\",\"url\":\"https://github.com\",\"icon\":\"fa-brands fa-github\"},{\"name\":\"GitLab\",\"url\":\"https://gitlab.com\",\"icon\":\"fa-brands fa-gitlab\"},{\"name\":\"Stack Overflow\",\"url\":\"https://stackoverflow.com\",\"icon\":\"fa-brands fa-stack-overflow\"},{\"name\":\"CodePen\",\"url\":\"https://codepen.io\",\"icon\":\"fa-brands fa-codepen\"},{\"name\":\"Vercel\",\"url\":\"https://vercel.com\",\"icon\":\"fa-solid fa-v\"},{\"name\":\"Docker\",\"url\":\"https://docker.com\",\"icon\":\"fa-brands fa-docker\"}],\"social\":[{\"name\":\"Reddit\",\"url\":\"https://reddit.com\",\"icon\":\"fa-brands fa-reddit-alien\"},{\"name\":\"Twitter\",\"url\":\"https://twitter.com\",\"icon\":\"fa-brands fa-x-twitter\"},{\"name\":\"Discord\",\"url\":\"https://discord.com\",\"icon\":\"fa-brands fa-discord\"},{\"name\":\"LinkedIn\",\"url\":\"https://linkedin.com\",\"icon\":\"fa-brands fa-linkedin\"},{\"name\":\"Mastodon\",\"url\":\"https://mastodon.social\",\"icon\":\"fa-brands fa-mastodon\"},{\"name\":\"Twitch\",\"url\":\"https://twitch.tv\",\"icon\":\"fa-brands fa-twitch\"}],\"media\":[{\"name\":\"YouTube\",\"url\":\"https://youtube.com\",\"icon\":\"fa-brands fa-youtube\"},{\"name\":\"Spotify\",\"url\":\"https://spotify.com\",\"icon\":\"fa-brands fa-spotify\"},{\"name\":\"Netflix\",\"url\":\"https://netflix.com\",\"icon\":\"fa-solid fa-film\"},{\"name\":\"SoundCloud\",\"url\":\"https://soundcloud.com\",\"icon\":\"fa-brands fa-soundcloud\"},{\"name\":\"Prime Video\",\"url\":\"https://primevideo.com\",\"icon\":\"fa-brands fa-amazon\"},{\"name\":\"Plex\",\"url\":\"https://plex.tv\",\"icon\":\"fa-solid fa-circle-play\"}],\"productivity\":[{\"name\":\"Notion\",\"url\":\"https://notion.so\",\"icon\":\"fa-solid fa-book\"},{\"name\":\"Gmail\",\"url\":\"https://mail.google.com\",\"icon\":\"fa-solid fa-envelope\"},{\"name\":\"Calendar\",\"url\":\"https://calendar.google.com\",\"icon\":\"fa-solid fa-calendar-days\"},{\"name\":\"Drive\",\"url\":\"https://drive.google.com\",\"icon\":\"fa-brands fa-google-drive\"},{\"name\":\"Proton Mail\",\"url\":\"https://mail.proton.me/u/0/inbox\",\"icon\":\"fa-solid fa-square-envelope\"},{\"name\":\"Figma\",\"url\":\"https://figma.com\",\"icon\":\"fa-brands fa-figma\"}]}"
+}
