@@ -34,6 +34,20 @@ const elAmPm = document.getElementById('clock-ampm');
 
 let use24h = false; // default to 12-hour
 
+
+UpdateWallpaper = () => {
+    const HourNow = new Date().getHours();
+
+    if (HourNow >= 5 && HourNow < 12) {
+        document.body.setAttribute('data-theme', 'sunset');
+    } else if (HourNow >= 12 && HourNow < 17) {
+        document.body.setAttribute('data-theme', 'evening');
+    } else {
+        document.body.setAttribute('data-theme', 'night');
+    }
+}
+
+
 function updateClock() {
     const now = new Date();
     let h = now.getHours();
