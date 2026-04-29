@@ -37,6 +37,7 @@ body[data-theme="night"] {
 }
 
 /* ---------- EVENING ---------- */
+
 body[data-theme="evening"] {
     --text-primary: #e8d5f5;
     --text-secondary: rgba(232, 213, 245, 0.65);
@@ -49,6 +50,50 @@ body[data-theme="evening"] {
     --clock-shadow: 0 4px 40px rgba(0, 0, 0, 0.5);
     --particle-color: rgba(192, 132, 252, 0.5);
 }
+
+/* ---------- EARLY MORNING ---------- */
+body[data-theme="early-morning"] {
+    --text-primary: #111111;
+    --text-secondary: rgba(0, 0, 0, 0.6);
+    --date-color: #555555;
+    --accent: #ff9e64;
+    --accent-hover: #ffb386;
+    --widget-bg: rgba(255, 255, 255, 0.8);
+    --widget-border: rgba(51, 51, 51, 0.1);
+    --btn-hover-bg: rgba(255, 158, 100, 0.15);
+    --clock-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    --particle-color: rgba(255, 180, 100, 0.6);
+}
+
+/* ---------- MORNING ---------- */
+body[data-theme="morning"] {
+    --text-primary: #111111;
+    --text-secondary: rgba(51, 51, 51, 0.6);
+    --date-color: #555555;
+    --accent: #ff9e64;
+    --accent-hover: #ffb386;
+    --widget-bg: rgba(255, 255, 255, 0.8);
+    --widget-border: rgba(51, 51, 51, 0.1);
+    --btn-hover-bg: rgba(255, 158, 100, 0.15);
+    --clock-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    --particle-color: rgba(255, 180, 100, 0.6);
+}
+
+/* ---------- NOON ---------- */
+body[data-theme="noon"] {
+    --text-primary: #333333;
+    --text-secondary: rgba(51, 51, 51, 0.6);
+    --date-color: #555555;
+    --accent: #ff9e64;
+    --accent-hover: #ffb386;
+    --widget-bg: rgba(255, 255, 255, 0.9);
+    --widget-border: rgba(51, 51, 51, 0.1);
+    --btn-hover-bg: rgba(255, 158, 100, 0.15);
+    --clock-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    --particle-color: rgba(255, 180, 100, 0.6);
+
+}
+
 
 /* ================================================================
    BACKGROUND LAYERS — 3-layer crossfade
@@ -91,6 +136,17 @@ body {
     background-image: url('wallpapers/evening-bg.png');
 }
 
+.bg-early-morning {
+    background-image: url('wallpapers/early-morning.png');
+}
+.bg-morning {
+    background-image: url('wallpapers/morning.jpg');
+}
+.bg-noon {
+    background-image: url('wallpapers/noon.jpg');
+}
+
+
 body[data-theme="sunset"] .bg-sunset {
     opacity: 1;
 }
@@ -102,6 +158,19 @@ body[data-theme="night"] .bg-night {
 body[data-theme="evening"] .bg-evening {
     opacity: 1;
 }
+
+body[data-theme="early-morning"] .bg-early-morning {
+    opacity: 1;
+}
+
+body[data-theme="morning"] .bg-morning {
+    opacity: 1;
+}
+
+body[data-theme="noon"] .bg-noon {
+    opacity: 1;
+}
+
 
 /* ================================================================
    PARTICLE CANVAS

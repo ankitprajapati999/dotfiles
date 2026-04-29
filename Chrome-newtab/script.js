@@ -35,17 +35,27 @@ const elAmPm = document.getElementById('clock-ampm');
 let use24h = false; // default to 12-hour
 
 
-UpdateWallpaper = () => {
+function updateWallpaper() {
+
+ 
     const HourNow = new Date().getHours();
 
-    if (HourNow >= 5 && HourNow < 12) {
-        document.body.setAttribute('data-theme', 'sunset');
+    if (HourNow >= 5 && HourNow < 8) {
+        document.body.setAttribute('data-theme', 'early-morning');
+    } else if (HourNow >= 8 && HourNow < 12) {
+        document.body.setAttribute('data-theme', 'morning');
     } else if (HourNow >= 12 && HourNow < 17) {
+        document.body.setAttribute('data-theme', 'noon');
+    } else if (HourNow >= 17 && HourNow < 19) {
+        document.body.setAttribute('data-theme', 'sunset');
+    } else if (HourNow >= 19 && HourNow < 23) {
         document.body.setAttribute('data-theme', 'evening');
     } else {
         document.body.setAttribute('data-theme', 'night');
     }
+
 }
+
 
 
 function updateClock() {
@@ -103,9 +113,9 @@ format12.addEventListener('click', () => setClockFormat(false));
 format24.addEventListener('click', () => setClockFormat(true));
 
 /* =============================================================
-   THEME TOGGLE (sunset → night → evening → sunset)
+   THEME TOGGLE (sunset → night → evening → sunset → etc)
    ============================================================= */
-const THEMES = ['sunset', 'night', 'evening'];
+const THEMES = ['sunset', 'night', 'evening', 'early-morning', 'morning', 'noon'];
 let themeIndex = 0;
 
 document.getElementById('btn-theme').addEventListener('click', () => {
@@ -1074,6 +1084,11 @@ document.addEventListener('mozfullscreenchange', updateFullscreenIcon);
 document.addEventListener('MSFullscreenChange', updateFullscreenIcon);
 
 
+
+
+
+// Dynamic Wallpaper changes based on time of day (bonus feature)
+updateWallpaper();
 
 
 

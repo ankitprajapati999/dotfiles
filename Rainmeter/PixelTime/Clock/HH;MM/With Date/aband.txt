@@ -1,0 +1,9 @@
+[MeterDate]
+Meter=String
+MeterStyle=BitStyle
+MeasureName=MeasureDate
+X=80
+Y=160
+FontSize=15
+FontFace=VCR OSD Mono
+StringAlign=CENTER
